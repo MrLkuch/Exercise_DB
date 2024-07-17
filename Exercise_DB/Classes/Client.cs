@@ -25,7 +25,7 @@ namespace Exercise_DB.Classes
         public int Telephone { get => _tel; set => _tel = value; }
         public string Address { get => _address; set => _address = value; }
 
-        public Client(string name, string surname, string email, int telephone, string address)
+        public Client(String name, String surname, String email, int telephone, String address)
         {
             _id_client = _id_count;
             Name = name;
